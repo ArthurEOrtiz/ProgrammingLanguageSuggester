@@ -67,18 +67,7 @@ $(document).ready(function(){
     console.log("c score = " + c);
     console.log("C# score = " + cSharp);
 
-
-
-
-    //score
-    /*var cpp = ;
-    var c =  ;
-    var cSharp = ;
-    console.log(parseInt(cpp));
-    console.log(c);
-    console.log(cSharp);
-    //computations */
-    /*if (cpp > c && cpp > cSharp) {
+    if (cpp > c && cpp > cSharp) {
       $("#cpp").show();
       $("#c").hide();
       $("#cSharp").hide();
@@ -86,10 +75,10 @@ $(document).ready(function(){
       $("#cpp").hide();
       $("#c").show();
       $("#cSharp").hide();
-    } else (cSharp > cpp && cSharp > c) {
+    } else if (cSharp > cpp && cSharp > c) {
       $("#cpp").hide();
       $("#c").hide();
       $("#cSharp").show();
-    } */
+    } 
   });
 });
