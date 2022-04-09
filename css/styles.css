@@ -1,11 +1,4 @@
-#cpp{
+#cpp, #c, #cSharp {
   display: none;
 }
 
-#c{
-  display: none;
-}
-
-#cSharp{
-  display: none;
-}
