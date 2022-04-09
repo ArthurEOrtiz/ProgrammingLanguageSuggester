@@ -20,7 +20,7 @@ $(document).ready(function(){
     } else if (questionOne == 3) {
       cSharp += 1;
     } else {
-      console.log("error");
+      alert("Question 1 has no response!");
     }
 
     if (questionTwo == 1) {
@@ -30,7 +30,7 @@ $(document).ready(function(){
     } else if (questionTwo == 3) {
       cSharp += 1;
     } else {
-      console.log("error");
+      alert("Question 2 has no response!");
     }
 
     if (questionThree == 1) {
@@ -40,7 +40,7 @@ $(document).ready(function(){
     } else if (questionThree == 3) {
       cSharp += 1;
     } else {
-      console.log("error");
+      alert("Question 3 has no response!");
     }
 
     if (questionFour == 1) {
@@ -50,7 +50,7 @@ $(document).ready(function(){
     } else if (questionFour == 3) {
       cSharp += 1;
     } else {
-      console.log("error");
+      alert("Question 4 has no response!");
     }
 
     if (questionFive == 1) {
@@ -60,25 +60,22 @@ $(document).ready(function(){
     } else if (questionFive == 3) {
       cSharp += 1;
     } else {
-      console.log("error");
+      alert("Question 5 has no response!");
     }
 
-    console.log("cpp score = " + cpp);
-    console.log("c score = " + c);
-    console.log("C# score = " + cSharp);
-
     if (cpp > c && cpp > cSharp) {
-      $("#cpp").show();
+      $("#cpp").show(1000);
       $("#c").hide();
       $("#cSharp").hide();
     } else if (c > cpp && c > cSharp) {
       $("#cpp").hide();
-      $("#c").show();
+      $("#c").show(1000);
       $("#cSharp").hide();
     } else if (cSharp > cpp && cSharp > c) {
       $("#cpp").hide();
       $("#c").hide();
-      $("#cSharp").show();
+      $("#cSharp").show(1000);
     } 
+
   });
 });
