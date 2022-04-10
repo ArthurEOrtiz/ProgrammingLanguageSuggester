@@ -76,6 +76,9 @@ $(document).ready(function(){
       $("#c").hide();
       $("#cSharp").show(1000);
     } 
+    
+    $("html").animate({ scrollTop: $(document).height() }, "slow");
+
 
   });
 });
